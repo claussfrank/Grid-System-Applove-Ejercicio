@@ -14,3 +14,148 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+.link{
+  font-weight: 700;
+  /*padding: 21px;*/
+  display: inline-block;
+}
+.logo{
+  float: right;
+}
+.centrar{
+  text-align: center;
+}
+.text-home{
+  font-size: 53px;
+}
+.btn-home{
+  background: #2ECC71;
+  color:#fff;
+  /*padding: 11px 20px;*/
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 63px;
+  display: inline-block;
+  font-size: 14px;
+}
+.text-home{
+  font-size: 53px; /*tamaño de la tipografia*/
+}
+.btn-home{
+  background:#2ECC71; /* Color de fondo */
+  color:#fff; /* Color del texto*/
+  /*padding:11px 20px; /* Relleno en el botón 11px (top-botton) y 20px (lef -right)*/*/
+  border-radius:1px; /*redondear el borde 1px*/
+  font-weight: 500;
+  text-transform: uppercase; /*Convierte el texto a Mayusculas*/
+  /*margin-top:63px; /*margen en la parte de arriba :63px*/*/
+  display: inline-block;
+  font-size:14px; /*Tamaño de letra:14px */
+}
+#services{
+  background-color: #F17C72; /*Color de fondo*/
+  text-align:center; /*Alineacion centro */
+  color: #fff; /*color al texto:blanco */
+  width: 100%;
+}
+.box-services{
+  display: inline-block;
+  /*width: 30%; /*Para que las cajas tengan un ancho de 30%*/*/
+  margin-top:63px; /*margen de la parte de arriba: 63px */
+}
+.text-services {
+  font-size: 35px; /*Tamaño de la letra */
+  letter-spacing: 2px;/*Espacio entre cada letra */
+}
+#work{
+    background-color: #fff;
+    text-align: center;
+    color: #373B47;
+
+}
+.text-work{
+
+}
+.box-work{
+    box-sizing: border-box;
+    box-sizing: border-box;
+    display: inline-block;
+    width:30%;
+    height: 30%;
+    margin-top: 10%;
+    /*margin-left: 3%*/
+}
+.box-work img{
+    width: 100%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    /*left: 0;*/
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)}
+    to {-webkit-transform:scale(1)}
+}
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}

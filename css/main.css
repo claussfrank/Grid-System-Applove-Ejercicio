@@ -21,6 +21,7 @@ body {
   font-size: 16px;
   line-height: 1.71429;
   background-color: #fff;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -34,4 +35,35 @@ a {
 
 a:hover {
   color: #E95853;
+}
+header{
+  position: fixed;
+  background: white;
+  width:100%;
+  top:0;
+}
+.menu{
+  padding: 14px;
+  overflow: auto;
+}
+#home{
+  background-image: url(../assets/images/bg-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 554px;
+  margin-top: 80px;
+  text-align: center;
+  width: 100%;
+
+}
+#home .containerStyle{
+  color: white;
+  padding: 53px;
+}
+footer{
+  height: 70px;
+  background-color: #373B47;
+  color: white;
+  padding-top: 7px;
 }
